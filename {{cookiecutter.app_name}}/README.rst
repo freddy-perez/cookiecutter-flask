@@ -30,7 +30,7 @@ Now, on your browser go to localhost:5000
 Deployment
 ----------
 
-To deploy to Production::
+To deploy to Production:
 
 .. code-block:: bash
 
@@ -41,7 +41,7 @@ To deploy to Production::
     docker exec myflaskapp_app_1 flask db migrate
     docker exec myflaskapp_app_1 flask db upgrade
 
-To do live development::
+To do live development:
 
 .. code-block:: bash
 
