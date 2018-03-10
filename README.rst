@@ -1,7 +1,7 @@
 cookiecutter-flask
 ==================
 
-A Docker Compose Flask template for [cookiecutter](https://github.com/audreyr/cookiecutter).
+A Docker Compose Flask template for `cookiecutter <https://github.com/audreyr/cookiecutter>`_. 
 The Templates Generates a docker-compose application with 3 containers: Nginx, postgres and flask application.
 
 Use it now
@@ -44,7 +44,7 @@ Screenshots
 Inspiration
 -----------
 
-- [Sloria](<https://github.com/sloria/cookiecutter-flask>)
+- `Sloria <https://github.com/sloria/cookiecutter-flask>`_
 
 
 License
