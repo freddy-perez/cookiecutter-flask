@@ -33,6 +33,7 @@ Deployment
 To deploy to Production::
 
 .. code-block:: bash
+
     cd {{cookiecutter.app_name}}
     docker-compose -f docker-compose.yml -f docker-compose-prod.yaml build
     docker-compose -f docker-compose.yml -f docker-compose-prod.yaml up -d
@@ -43,6 +44,7 @@ To deploy to Production::
 To do live development::
 
 .. code-block:: bash
+
     cd {{cookiecutter.app_name}}
     docker-compose -f docker-compose.yml -f docker-compose-dev.yaml build
     docker-compose -f docker-compose.yml -f docker-compose-dev.yaml up -d
